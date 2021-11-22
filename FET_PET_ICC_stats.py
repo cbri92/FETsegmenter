@@ -23,7 +23,7 @@ import pingouin as pg
 
 #%%Set Working directory
         
-data_supradir = 'C:/Users/cbri3325/Dropbox (Sydney Uni)/Caterina Brighi/Data/FET GBM/Analysed/' #Set working directory
+data_supradir = 'path to directory containing analysis results xlsx files' #Set working directory
 
 IntraICC_df = pd.read_excel(data_supradir+'IntraICCdf.xlsx', sheet_name=None, index_col=None)
 n_readers = len(IntraICC_df)
