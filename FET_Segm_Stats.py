@@ -24,7 +24,7 @@ def createList(r1, r2):
 
 #%% Set Working directory
         
-data_supradir = 'C:/Users/cbri3325/Dropbox (Sydney Uni)/Caterina Brighi/Data/FET GBM/Analysed/' #Set working directory
+data_supradir = 'path to directory containing analysis results xlsx files' #Set working directory
 
 
 users_path = [ f.path for f in os.scandir(data_supradir) if f.is_dir() ] #Create a list of the paths to the users directories
