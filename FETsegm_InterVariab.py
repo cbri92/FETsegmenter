@@ -21,7 +21,7 @@ from scipy.stats.stats import pearsonr
 
 #%%Set Working directory
         
-data_supradir = 'C:/Users/cbri3325/Dropbox (Sydney Uni)/Caterina Brighi/Data/FET GBM/Analysed/' #Set working directory
+data_supradir = 'path to directory containing analysis results xlsx files' #Set working directory
 
 Results_df = pd.read_excel(data_supradir+'OverallResults.xlsx', sheet_name=None, index_col=None)
 n_patients = len(Results_df)
