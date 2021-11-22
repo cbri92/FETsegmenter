@@ -27,7 +27,7 @@ from ImageAnalysisFunctions import *
 
 #%% Set Working directory
         
-data_supradir = 'C:/Users/cbri3325/Dropbox (Sydney Uni)/Caterina Brighi/Data/FET GBM/test/' #Set working directory
+data_supradir = 'path to supradirectory containing individual patients directories' #Set working directory
 
 #Set path to seeds list excel file
 seeds_file_path = data_supradir +'Seeds_list.xlsx'
