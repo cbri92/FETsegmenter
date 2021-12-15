@@ -80,36 +80,7 @@ for current in subjs_name:
     # PET_FET_bet = generate_mask(PET_FET, brain_mask_cleaned)
     # sitk.WriteImage(PET_FET_bet, subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
     PET_FET_bet = sitk.ReadImage(subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-    
-    # # Apply transformations to re-align KF006 and GF002 imageS to axes
-    # if current == 'KF006':
-    #     print('Apply transformations to re-align KF006 image to axes')
-    #     PET_FET_bet_rot = rotation3d(PET_FET_bet, theta_z=6, show=False) #Rotate KF006 PET image by 6 degrees anticlockwise around z axis
-    #     PET_FET_bet_transl = affine_translate(PET_FET_bet_rot, 3, x_translation=-9.0, y_translation=0.0, z_translation=0.0)
-    #     sitk.WriteImage(PET_FET_bet_transl, subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-    #     PET_FET_bet = sitk.ReadImage(subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-        
-    # elif current == 'GF002':
-    #     print('Apply transformations to re-align GF002 image to axes')
-    #     PET_FET_bet_rot = rotation3d(PET_FET_bet, theta_z=5, show=False) #Rotate KF006 PET image by 5 degrees anticlockwise around z axis
-    #     PET_FET_bet_transl = affine_translate(PET_FET_bet_rot, 3, x_translation=4.0, y_translation=0.0, z_translation=0.0)
-    #     sitk.WriteImage(PET_FET_bet_transl, subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-    #     PET_FET_bet = sitk.ReadImage(subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-        
-    # elif current == 'FF004':
-    #     print('Apply transformations to re-align FF004 image to axes')
-    #     PET_FET_bet_rot = rotation3d(PET_FET_bet, theta_z=-3, show=False) #Rotate FF004 PET image by 6 degrees anticlockwise around z axis
-    #     PET_FET_bet_transl = affine_translate(PET_FET_bet_rot, 3, x_translation=0.0, y_translation=0.0, z_translation=0.0)
-    #     sitk.WriteImage(PET_FET_bet_transl, subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-    #     PET_FET_bet = sitk.ReadImage(subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-        
-    # elif current == 'AB001':
-    #     print('Apply transformations to re-align AB001 image to axes')
-    #     PET_FET_bet_rot = rotation3d(PET_FET_bet, theta_z=3, show=False) #Rotate AB001 PET image by 3 degrees anticlockwise around z axis
-    #     PET_FET_bet_transl = affine_translate(PET_FET_bet_rot, 3, x_translation=-3.0, y_translation=10.0, z_translation=0.0)
-    #     sitk.WriteImage(PET_FET_bet_transl, subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-    #     PET_FET_bet = sitk.ReadImage(subj_dir +'/' + subj_name + '_PET_FET_bet.nii')
-        
+           
     
     #Create empty Dictionary with results of stats to populate as going through the loop
     Results_dict = {}
