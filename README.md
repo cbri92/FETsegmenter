@@ -12,7 +12,7 @@ The two main project files of this repo are FETsegmentation_CS.py and FETsegment
 
 The original peer-reviewed article published on this work is the following, and is availale for Open Access at this link: https://rdcu.be/cGpSI
 
-Brighi, C., Puttick, S., Li, S. et al. A novel semiautomated method for background activity and biological tumour volume definition to improve standardisation of 18F-FET PET imaging in glioblastoma. EJNMMI Phys 9, 9 (2022). https://doi.org/10.1186/s40658-022-00438-2
+[Brighi, C., Puttick, S., Li, S. et al. A novel semiautomated method for background activity and biological tumour volume definition to improve standardisation of 18F-FET PET imaging in glioblastoma. EJNMMI Phys 9, 9 (2022). https://doi.org/10.1186/s40658-022-00438-2](https://doi.org/10.1186/s40658-022-00438-2)
 
 **Directory Structure** 
 NA
