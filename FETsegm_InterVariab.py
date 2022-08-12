@@ -2,7 +2,11 @@
 """
 Created on Fri Dec 11 13:50:05 2020
 
-@author: cbri3325
+@author: Caterina Brighi
+
+This script calculates the coefficient of variation to estimate the inter-rater variability in values of
+'Mean CTRL SUVmean MI [SUV]', 'Mean CTRL SUVmean CS [SUV]', 'Mean BTV Volume MI [mm3]', 'Mean BTV Volume CS [mm3]'
+for each segmentation method.
 """
 
 #%% Import functions 
