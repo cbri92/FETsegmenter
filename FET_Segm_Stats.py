@@ -2,7 +2,7 @@
 """
 Created on Sun Nov 1 12:21:00 2020
 
-@author: cbri3325
+@author: Caterina Brighi
 """
 
 #%% Import functions 
