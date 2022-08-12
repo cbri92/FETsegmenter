@@ -2,7 +2,10 @@
 """
 Created on Mon Apr 26 09:10:23 2021
 
-@author: cbri3325
+@author: Caterina Brighi
+
+This scripts evaluates intra-reader and inter-reader reliability in SUVmean in the CTRL VOI and the volume of BTV with
+ICC(2,1) based on two-way random effect, absolute agreement, single rater/measurement model.
 """
 
 
